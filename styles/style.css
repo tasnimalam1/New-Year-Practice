@@ -15,7 +15,7 @@ body {
   min-height: 600px;
   margin: 0 auto;
   margin-top: 50px;
-  border-radius: 5px;
+  border-radius: 5px 5px 5px 5px;
   background-color: rgba(0, 0, 0, 0.4);
   background-image: url(../images/Banner\ Image.png);
   background-position: center;
@@ -140,4 +140,41 @@ body {
 .right-content img {
   width: 349.16px;
   height: 464.65px;
+}
+/* event-time-section start here */
+.event-time-section {
+  max-width: 1320px;
+  min-height: 482px;
+  border: 2px solid red;
+  margin: 0 auto;
+  border-radius: 10px;
+  margin-bottom: 120px;
+  background: linear-gradient(180deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0));
+}
+
+.event-p-color {
+  color: #ff0000;
+}
+.event-description {
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  margin: 0 auto;
+  margin-top: 100px;
+  text-align: center;
+}
+.event-btn {
+  text-align: center;
+}
+.event-btn button {
+  width: 167px;
+  height: 56px;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 8px;
+  background: rgb(255, 0, 0);
+  border: none;
+  margin-top: 64px;
 }
