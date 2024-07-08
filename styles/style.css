@@ -145,7 +145,7 @@ body {
 .event-time-section {
   max-width: 1320px;
   min-height: 482px;
-  border: 2px solid red;
+
   margin: 0 auto;
   border-radius: 10px;
   margin-bottom: 120px;
@@ -154,14 +154,17 @@ body {
 
 .event-p-color {
   color: #ff0000;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 500;
 }
 .event-description {
   font-family: Inter;
   font-size: 32px;
-  font-weight: 600;
+  font-weight: 500;
   margin: 0 auto;
-  margin-top: 100px;
   text-align: center;
+  padding-top: 100px;
 }
 .event-btn {
   text-align: center;
@@ -176,5 +179,5 @@ body {
   border-radius: 8px;
   background: rgb(255, 0, 0);
   border: none;
-  margin-top: 64px;
+  margin-top: 48px;
 }
