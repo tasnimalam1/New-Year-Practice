@@ -313,11 +313,12 @@ body {
   top: 20%;
   left: 140%;
 }
+/* portfolio style start here */
 .portfolio-section-container {
   max-width: 1320px;
   min-height: 1163px;
   margin: 0 auto;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   margin-bottom: 120px;
 }
 .portfolio-content h5 {
