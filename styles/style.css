@@ -145,7 +145,7 @@ body {
 .event-time-section {
   max-width: 1320px;
   min-height: 482px;
-
+  /* border: 2px solid rebeccapurple; */
   margin: 0 auto;
   border-radius: 10px;
   margin-bottom: 120px;
@@ -180,4 +180,136 @@ body {
   background: rgb(255, 0, 0);
   border: none;
   margin-top: 48px;
+}
+/* new offer section start here */
+.new-offer-container {
+  max-width: 1320px;
+  min-height: 463px;
+  /* border: 2px solid red; */
+  margin: 0 auto;
+  display: flex;
+  margin-bottom: 120px;
+}
+.new-offer-left {
+  width: 463px;
+  height: 463px;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+.new-offer-left h4 {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.new-offer-left h1 {
+  color: rgb(7, 2, 17);
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+}
+.new-offer-left p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+}
+.new-offer-middle {
+  min-width: 463px;
+  min-height: 463px;
+  /* border: 2px solid rgb(9, 12, 192); */
+  border-radius: 50%;
+  box-sizing: border-box;
+  border: 15px solid rgb(255, 0, 0);
+}
+.new-offer-middle img {
+  width: 90%;
+}
+.new-offer-middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+}
+.new-offer-right {
+  width: 276px;
+  height: 170px;
+  /* border: 2px solid yellow; */
+  margin-left: 150px;
+  margin-top: 112px;
+}
+.new-offer-right h1 {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+}
+.new-offer-right p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+}
+.new-offer-right img {
+  margin-top: 45px;
+}
+/* holiday section style */
+.hiliday-section-container {
+  max-width: 1320px;
+  min-height: 986px;
+  /* border: 2px solid red; */
+  margin: 0 auto;
+  margin-bottom: 120px;
+  position: relative;
+}
+.holiday-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1068px;
+  height: 260px;
+  margin: 0 auto;
+}
+.holiday-container h5 {
+  color: rgb(7, 2, 17);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.holiday-container h1 {
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+}
+.holiday-container p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+}
+.holiday-container span {
+  color: #ff0000;
+}
+.solid-color {
+  width: 1320px;
+  height: 229px;
+  border-radius: 16px 0px 16px 16px;
+  background-color: rgb(255, 0, 0);
+  position: absolute;
+  top: 76.7%;
+}
+.gift-box {
+  width: 674.82px;
+  height: 577.96px;
+  position: relative;
+  z-index: 1;
+}
+.discount {
+  position: absolute;
+  top: 20%;
+  left: 140%;
 }
